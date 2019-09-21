@@ -56,6 +56,8 @@ You would get a file structure under `./result` like this
     imo -i <inputDir> -o <outputDir>
 
     # specify file extensions to search
+    # note: file extensions would be auto-converted to lowercase
+    #       which means 'jpg' would match both 'jpg' and 'JPG' 
     imo -e jpg|jpeg|bmp|png|tga
 
     # set search depth to 5
